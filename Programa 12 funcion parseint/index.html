@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="JavaScript">
+        /* 
+        La función eval, evalua la expresión de cadena y devuleve su valor.
+        Por ejemplo eval("1+1") devuelve 2
+        */
+        var n1;
+        var n2;
+        var x,y;
+
+        n1 = prompt("Introduzca un numero","");
+        n2 = prompt("Introduzca otro numero","");
+        x = parseInt(n1,10);
+        y = parseInt(n2,10);
+        document.write("La suma es: " + eval("x + y") + "<br>");
+        document.write("La suma es: " + (x - y) + "<br>");
+        document.write("La suma es: " + (x * y) + "<br>");
+        document.write("La suma es: " + (x / y) + "<br>");
+    </script>
+</body>
+</html>

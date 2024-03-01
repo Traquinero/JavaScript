@@ -1,0 +1,25 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    background-color: red;
+    text-align: center;
+    margin: 0;
+}
+
+
+p{
+    margin: 0;
+    background-color: beige;
+    text-align: center;
+    font-size: 30px;
+}
+
+.area{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(216, 204, 227);
+}
+

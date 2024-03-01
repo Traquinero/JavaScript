@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>programa 15 Objeto Day</title>
+</head>
+<body>
+    <p>Programa en JavaScript imprime el día y el mes actual</p>
+    
+    <div class="tiempo">
+        <script language="JavaScript">
+            var f,mes;
+            var anio;
+            f = new Date();
+            document.write("Hoy es " + f.getDate() + "");
+            mes = f.getMonth() + 1 ;
+            document.write(" del 0" + mes + "");
+            anio = f.getYear();
+
+            if(navigator.appName == "Netscape"){
+                anio = anio + 1900;
+                document.write(" de " + anio);
+            }
+
+        document.write("<br>");
+        document.write("<br>");
+        document.write('Valores de las propiedades del objeto navigator:<br>');
+        document.write('appName :' + navigator.appName + '<br>');
+        document.write('appVersion :' + navigator.appVersion + '<br>');
+        document.write('cookieEnabled :' + navigator.cookieEnabled + '<br>');
+        document.write('plugins :' + navigator.plugins.length + '<br>');
+
+        </script>
+
+    </div>
+  
+</body>
+</html>
+

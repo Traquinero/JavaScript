@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="JavaScript">
+        /*
+        El siguiente fragmento de código define un objeto denominado rectangulo con dos propiedades
+        (sus lados) y un metodo que permite calcular su área
+        */
+    
+        function areaRectangulo(lado1,lado2){
+            return lado1*lado2;
+        }
+
+        function Rectangulo(lado1,lado2){
+            this.lado1 = lado1;
+            this.lado2 = lado2;
+            this.area = areaRectangulo;
+        }
+
+        var a;
+        r = new Rectangulo(5,20);
+
+        a = r.area(r.lado1,r.lado2);
+        document.write("El area es: "+a);
+    </script>
+</body>
+</html>
